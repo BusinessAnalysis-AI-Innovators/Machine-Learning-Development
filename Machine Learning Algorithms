@@ -90,7 +90,7 @@ X_train, X_test, y_train_1, y_test_1, y_train_2, y_test_2, y_train_3, y_test_3 =
 models = [LinearRegression(), GradientBoostingRegressor()]
 
 for model in models:
-    #Risk Factor Column
+#Risk Factor Column
     # Create and Train the regression model
     model.fit(X_train, y_train_1)
 
